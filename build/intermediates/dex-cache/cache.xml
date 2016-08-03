@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.1_ce2b57c3a94d764a98eb3200eb855a05e9943643/classes.dex" />
+    </item>
+    <item
+        jar="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.1.1_f7cb4fcc05838e585e6cdff9821b434a24bf4dd8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.1.1_a39c80f94cc9b25ab3640c79a16cdf472c19471d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.1.1_8c6a23c8f5aa6d54c0951d6b91bfa48cb795f688/classes.dex" />
+    </item>
+    <item
+        jar="/Users/rayhanislam/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.1.1_fba2d35d1fbaf58536bd9318be78a8ec3688febb/classes.dex" />
+    </item>
+    <item
+        jar="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.1.1_9558cc95d93267d70ba2563fca91fb8ed5c865a1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.1.1_457c092eb668e66f2603668cf869b8d5289fbee4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.1.1_9a28ea0d70b63580d32526d661c5e3544ba9e94d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="efba30f27a8002216392f54990273b315beb7f01">
+        <dex dex="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bf58e87f022dd3001216b72c7600572f9c972fc7/classes.dex" />
+    </item>
+    <item
+        jar="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="71b3b48363b6f4f0a08686c90552d0286b5b2657">
+        <dex dex="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_132dbc6467ae078bd92e089a78db45c7c6ca1a02/classes.dex" />
+    </item>
+
+</items>
