@@ -2,20 +2,6 @@
 <items version="2" >
 
     <item
-        jar="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
-        jumboMode="true"
-        revision="24.0.1"
-        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
-        <dex dex="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.1_ce2b57c3a94d764a98eb3200eb855a05e9943643/classes.dex" />
-    </item>
-    <item
-        jar="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.1"
-        sha1="6d7d803871e3203465f71a163e7af104f807b446">
-        <dex dex="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.1.1_f7cb4fcc05838e585e6cdff9821b434a24bf4dd8/classes.dex" />
-    </item>
-    <item
         jar="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/jars/classes.jar"
         jumboMode="true"
         revision="24.0.1"
@@ -23,11 +9,25 @@
         <dex dex="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.1.1_a39c80f94cc9b25ab3640c79a16cdf472c19471d/classes.dex" />
     </item>
     <item
+        jar="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.1_ce2b57c3a94d764a98eb3200eb855a05e9943643/classes.dex" />
+    </item>
+    <item
         jar="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
         jumboMode="true"
         revision="24.0.1"
         sha1="1256c10604bb098490eab070d76754ac5ceab35c">
         <dex dex="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.1.1_8c6a23c8f5aa6d54c0951d6b91bfa48cb795f688/classes.dex" />
+    </item>
+    <item
+        jar="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.1.1_f7cb4fcc05838e585e6cdff9821b434a24bf4dd8/classes.dex" />
     </item>
     <item
         jar="/Users/rayhanislam/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
@@ -61,14 +61,14 @@
         jar="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="24.0.1"
-        sha1="efba30f27a8002216392f54990273b315beb7f01">
+        sha1="dae9605225c386ad7c1d763075b74ff58d319d2d">
         <dex dex="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bf58e87f022dd3001216b72c7600572f9c972fc7/classes.dex" />
     </item>
     <item
         jar="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.1"
-        sha1="71b3b48363b6f4f0a08686c90552d0286b5b2657">
+        sha1="ad77b6b26a5e6108ac73469ae6a7abaaff86a826">
         <dex dex="/Users/rayhanislam/AndroidStudioProjects/HelloWisconsin/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_132dbc6467ae078bd92e089a78db45c7c6ca1a02/classes.dex" />
     </item>
 

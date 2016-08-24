@@ -18,6 +18,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <receiver android:name=".Alarm_Receiver"/>
+
+        <service android:name="RingtoneService"
+            android:enabled="true"></service>
     </application>
 
 </manifest>

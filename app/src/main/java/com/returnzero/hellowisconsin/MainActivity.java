@@ -2,7 +2,9 @@ package com.returnzero.hellowisconsin;
 
 import android.annotation.TargetApi;
 import android.app.AlarmManager;
+import android.app.PendingIntent;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -13,7 +15,6 @@ import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.TimePicker;
-
 import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity {
@@ -25,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     TimePicker alarm_timepicker;
     TextView update_text;
     Context context;
-
+    PendingIntent pending_intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +47,9 @@ public class MainActivity extends AppCompatActivity {
 
         //Instance of a calendar
         final Calendar calendar = Calendar.getInstance();
+
+        //nternt to receiver class
+        final Intent my_intent = new Intent(this.context, Alarm_Receiver.class);
 
         //Inatialize Buttons
         //Button on
@@ -81,6 +85,15 @@ public class MainActivity extends AppCompatActivity {
                 }
                 //Method to update text box
                 set_alarm_text (" Alarm set to "   +hr +":"+ min);
+
+
+                //Create pending intent to delay intent till wanted time
+                 pending_intent = PendingIntent.getBroadcast(MainActivity.this, 0,
+                        my_intent,PendingIntent.FLAG_UPDATE_CURRENT);
+
+                //Setting alarm manager
+               alarm_manager.set(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(),
+                       pending_intent);
             }
         });
 
@@ -92,10 +105,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-
-
                 //Method to update text box
                  set_alarm_text ("Hello Wisconsin!!");
+
+                //Cancell the alarm
+                 alarm_manager.cancel(pending_intent);
             }
         });
 
