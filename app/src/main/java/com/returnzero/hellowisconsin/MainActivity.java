@@ -87,6 +87,10 @@ public class MainActivity extends AppCompatActivity {
                 set_alarm_text (" Alarm set to "   +hr +":"+ min);
 
 
+                //Pressing extra alarm on button
+                my_intent.putExtra("extra","alarm on");
+
+
                 //Create pending intent to delay intent till wanted time
                  pending_intent = PendingIntent.getBroadcast(MainActivity.this, 0,
                         my_intent,PendingIntent.FLAG_UPDATE_CURRENT);
@@ -110,6 +114,13 @@ public class MainActivity extends AppCompatActivity {
 
                 //Cancell the alarm
                  alarm_manager.cancel(pending_intent);
+
+
+                //Puting extra string that alarm clock button has been clicked
+                my_intent.putExtra("extra","alarf off");
+
+                //Stop the ringtone
+                sendBroadcast(my_intent);
             }
         });
 
