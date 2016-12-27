@@ -36,6 +36,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private FloatingActionButton fab,fab1,fab2;
     private Animation fab_open,fab_close,rotate_forward,rotate_backward;
 
+
+    private FloatingActionButton fableft,fab1left,fab2left;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,6 +59,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         fab.setOnClickListener(this);
         fab1.setOnClickListener(this);
         fab2.setOnClickListener(this);
+        // fableft
+
+
+        fableft = (FloatingActionButton)findViewById(R.id.fableft);
+        fab1left = (FloatingActionButton)findViewById(R.id.fableft1);
+        fab2left = (FloatingActionButton)findViewById(R.id.fableft2);
+
+        fableft.setOnClickListener(this);
+        fab1left.setOnClickListener(this);
+        fab2left.setOnClickListener(this);
+
+
         this.context =this;
 
 
@@ -67,8 +83,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // Inatialize alarm manager
         alarm_manager = (AlarmManager) getSystemService(ALARM_SERVICE);
 
-        //Inatialize text update
-        update_text = (TextView) findViewById(R.id.update_text);
+        /*Inatialize text update
+        update_text = (TextView) findViewById(R.id.update_text); */
 
         //Instance of a calendar
         final Calendar calendar = Calendar.getInstance();
@@ -76,7 +92,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //nternt to receiver class
         final Intent my_intent = new Intent(this.context, Alarm_Receiver.class);
 
-        //Inatialize Buttons
+       /* //Inatialize Buttons
         //Button on
         Button alarm_on = (Button) findViewById(R.id.alarm_on);
 
@@ -149,6 +165,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
 
+        */
+
 
 
 
@@ -207,6 +225,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
                 break;
+
+            case R.id.fableft:
+
+                animateFAB();
+                break;
+            case R.id.fableft1:
+
+
+                break;
+            case R.id.fableft2:
+
+
+                break;
         }
     }
 
@@ -221,6 +252,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             fab2.setClickable(false);
             isFabOpen = false;
 
+            fableft.startAnimation(rotate_backward);
+            fab1left.startAnimation(fab_close);
+            fab2left.startAnimation(fab_close);
+            fab1left.setClickable(false);
+            fab2left.setClickable(false);
+            isFabOpen = false;
+
 
         } else {
 
@@ -232,7 +270,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             isFabOpen = true;
 
 
+            fableft.startAnimation(rotate_forward);
+            fab1left.startAnimation(fab_open);
+            fab2left.startAnimation(fab_open);
+            fab1left.setClickable(true);
+            fab2left.setClickable(true);
+            isFabOpen = true;
+
+
         }
     }
+
 }
 
